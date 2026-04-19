@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       toml:
-        specifier: ^3.0.0
-        version: 3.0.0
+        specifier: ^4.1.1
+        version: 4.1.1
     devDependencies:
       '@biomejs/biome':
         specifier: ^1.9.4
@@ -422,8 +422,9 @@ packages:
     resolution: {integrity: sha512-WszCLXwT4h2k1ufIXAgsbiTOazqqevFCIncOuUBZJ91DdvWcC5+OFkluWRQPrcuSYd8fjq+o2y1QfWqYMoAToQ==}
     hasBin: true
 
-  toml@3.0.0:
-    resolution: {integrity: sha512-y/mWCZinnvxjTKYhJ+pYxwD0mRLVvOtdS2Awbgxln6iEnt4rk0yBxeSBHkGJcPucRiG0e55mwWp+g/05rsrd6w==}
+  toml@4.1.1:
+    resolution: {integrity: sha512-EBJnVBr3dTXdA89WVFoAIPUqkBjxPMwRqsfuo1r240tKFHXv3zgca4+NJib/h6TyvGF7vOawz0jGuryJCdNHrw==}
+    engines: {node: '>=20'}
 
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
@@ -757,7 +758,7 @@ snapshots:
 
   simple-git-hooks@2.13.1: {}
 
-  toml@3.0.0: {}
+  toml@4.1.1: {}
 
   tslib@2.8.1: {}
 
