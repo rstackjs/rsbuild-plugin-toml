@@ -23,7 +23,7 @@ Add plugin to your `rsbuild.config.ts`:
 
 ```ts
 // rsbuild.config.ts
-import { pluginToml } from "@rsbuild/plugin-toml";
+import { pluginToml } from '@rsbuild/plugin-toml';
 
 export default {
   plugins: [pluginToml()],
@@ -44,7 +44,7 @@ bar = "baz"
 After using the TOML plugin, you can reference it as follows:
 
 ```js
-import example from "./example.toml";
+import example from './example.toml';
 
 console.log(example.hello); // 'world';
 console.log(example.foo); // { bar: 'baz' };
@@ -71,7 +71,7 @@ pluginToml({
 When you import TOML files in TypeScript code, please create a `src/env.d.ts` file in your project and add the type declarations.
 
 ```ts title="src/env.d.ts"
-declare module "*.toml" {
+declare module '*.toml' {
   const content: Record<string, any>;
   export default content;
 }
