@@ -2,6 +2,10 @@
   "name": "@rsbuild/plugin-toml",
   "version": "2.0.1",
   "repository": "https://github.com/rstackjs/rsbuild-plugin-toml",
+  "homepage": "https://github.com/rstackjs/rsbuild-plugin-toml#readme",
+  "bugs": {
+    "url": "https://github.com/rstackjs/rsbuild-plugin-toml/issues"
+  },
   "license": "MIT",
   "type": "module",
   "exports": {
