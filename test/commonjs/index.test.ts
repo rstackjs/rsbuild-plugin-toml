@@ -17,7 +17,7 @@ test('should render page as expected', async ({ page }) => {
         }),
       ],
       server: {
-        port: getRandomPort(),
+        port: await getRandomPort(),
       },
     },
   });
@@ -41,7 +41,7 @@ test('should build succeed', async ({ page }) => {
         }),
       ],
       server: {
-        port: getRandomPort(),
+        port: await getRandomPort(),
       },
     },
   });

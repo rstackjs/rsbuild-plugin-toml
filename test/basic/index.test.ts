@@ -13,7 +13,7 @@ test('should render page as expected', async ({ page }) => {
     rsbuildConfig: {
       plugins: [pluginToml()],
       server: {
-        port: getRandomPort(),
+        port: await getRandomPort(),
       },
     },
   });
@@ -32,7 +32,7 @@ test('should build succeed', async ({ page }) => {
     rsbuildConfig: {
       plugins: [pluginToml()],
       server: {
-        port: getRandomPort(),
+        port: await getRandomPort(),
       },
     },
   });
