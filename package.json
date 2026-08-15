@@ -31,7 +31,7 @@
     "pre-commit": "pnpm run lint:write"
   },
   "dependencies": {
-    "toml": "^4.3.0"
+    "toml": "^5.0.0"
   },
   "devDependencies": {
     "@rsbuild/core": "2.1.13",
